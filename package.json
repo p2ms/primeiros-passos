@@ -1,0 +1,15 @@
+{
+  "name": "projeto-backend",
+  "version": "1.0.0",
+  "description": "Repositório para armazenar aprendizados sobre o curso BackEnd | Minha primeira API.",
+  "main": "horaLocal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
