@@ -1,13 +1,15 @@
 const express = require("express"); //iniciando biblioteca express
 //const { v4: uuidv4} = require("uuid"); //iniciando biblioteca uuid (APAGA APOS BD)
 const router = express.Router(); //configurando a priemeira parte da rota
-
+const cors = require('cors'); //trazendo o pacote cors que permite consumir a API no frontend
 const conectaBandoDeDados = require('./bancoDeDados') //ligando o banco de dados
 conectaBandoDeDados(); //chamando o função que conecta o banco de dados
 
 const mulher = require('./mulherModel'); //chamando o modelMulher
 const app = express(); //iniciando o app
 app.use(express.json()); //assim estara tratando tbm as requisições que, a partir de agr, estara em json
+app.use(cors()); //liberando a utilização do cors
+
 const porta = 3333; //criando a porta
 
 //lista inicial de mulheres
