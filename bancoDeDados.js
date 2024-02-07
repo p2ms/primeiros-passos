@@ -1,10 +1,4 @@
-/*
-rosapamela2004
-3vwi0pFs58kuhRLj
-3vwi0pFs58kuhRLj
 
-mongodb+srv://rosapamela2004:3vwi0pFs58kuhRLj@clustermulheres.dmv5sgr.mongodb.net/?retryWrites=true&w=majority
-*/
 
 const mongoose = require('mongoose');
 
