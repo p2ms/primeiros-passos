@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 1d970a60eb730ff90f8eddf8c14992c6e1b3faaf
-
 const mongoose = require('mongoose');
 require('dotenv').config()
 
