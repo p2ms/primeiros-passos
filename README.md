@@ -13,3 +13,4 @@ Repositório para armazenar aprendizados sobre o curso BackEnd | Minha primeira 
 | Aulas | Resumos |
 |--------|--------|
 |Aula 3 | [Códigos](https://www.remnote.com/w/659c27aa073baef0464c2116/Aula-3-VQs0dkt1N2McYXQud) |
+|Aula 5 | CRUD |
